@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: message-api
+  cloud:
+    config:
+      enable: false
+server:
+  port: 8081
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enable: tru
+message: This message is from default configuration
+
+
+
+
+
+
+
+
